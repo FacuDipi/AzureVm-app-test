@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@splinetool/runtime": "^0.9.232"
+		"@splinetool/runtime": "^0.9.232",
+		"svelte-adapter-azure-swa": "^0.13.0"
 	}
 }
