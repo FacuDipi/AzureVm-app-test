@@ -1,7 +1,8 @@
 
 const fetchCoins = async (fetch: WindowOrWorkerGlobalScope['fetch']) => {
   const coinsRes = await fetch('https://api.coincap.io/v2/assets');
-  const coinsData= await coinsRes.json();
+    const coinsData= await coinsRes.json();
+    console.log(coinsData)
   const coinsArray= Object.values(coinsData.data)
   return coinsArray
 };
